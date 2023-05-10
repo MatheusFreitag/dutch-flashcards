@@ -1,0 +1,233 @@
+[
+  { "original": "ik", "translation": "I", "audioFile": "audios/ik.mp3" },
+  { "original": "jij", "translation": "you", "audioFile": "audios/jij.mp3" },
+  { "original": "zij", "translation": "she", "audioFile": "audios/zij.mp3" },
+  { "original": "hij", "translation": "he", "audioFile": "audios/hij.mp3" },
+  { "original": "wij", "translation": " we", "audioFile": "audios/wij.mp3" },
+  { "original": "zij", "translation": " they", "audioFile": "audios/zij.mp3" },
+  { "original": "het", "translation": " it", "audioFile": "audios/het.mp3" },
+  { "original": "de", "translation": " the", "audioFile": "audios/de.mp3" },
+  { "original": "een", "translation": "a/an", "audioFile": "audios/een.mp3" },
+  {
+    "original": "goed",
+    "translation": "good",
+    "diphthong": "oe",
+    "audioFile": "audios/goed.mp3"
+  },
+  {
+    "original": "slecht",
+    "translation": "bad",
+    "diphthong": "ee",
+    "audioFile": "audios/slecht.mp3"
+  },
+  {
+    "original": "leuk",
+    "translation": "fun/nice",
+    "diphthong": "eu",
+    "audioFile": "audios/leuk.mp3"
+  },
+  {
+    "original": "mooi",
+    "translation": "beautiful",
+    "diphthong": "ooi",
+    "audioFile": "audios/mooi.mp3"
+  },
+  {
+    "original": "groot",
+    "translation": "big",
+    "diphthong": "oo",
+    "audioFile": "audios/groot.mp3"
+  },
+  {
+    "original": "klein",
+    "translation": "small",
+    "diphthong": "ei",
+    "audioFile": "audios/klein.mp3"
+  },
+  {
+    "original": "lang",
+    "translation": "long",
+    "diphthong": "aa",
+    "audioFile": "audios/lang.mp3"
+  },
+  {
+    "original": "eten",
+    "translation": "to eat",
+    "diphthong": "ee",
+    "audioFile": "audios/eten.mp3"
+  },
+  {
+    "original": "drinken",
+    "translation": "to drink",
+    "diphthong": "in",
+    "audioFile": "audios/drinken.mp3"
+  },
+  {
+    "original": "slapen",
+    "translation": "to sleep",
+    "diphthong": "aa",
+    "audioFile": "audios/slapen.mp3"
+  },
+  {
+    "original": "werken",
+    "translation": "to work",
+    "diphthong": "er",
+    "audioFile": "audios/werken.mp3"
+  },
+  {
+    "original": "studeren",
+    "translation": "to study",
+    "diphthong": "ue",
+    "audioFile": "audios/studeren.mp3"
+  },
+  {
+    "original": "leren",
+    "translation": "to learn",
+    "diphthong": "ee",
+    "audioFile": "audios/leren.mp3"
+  },
+  {
+    "original": "lezen",
+    "translation": "to read",
+    "diphthong": "ee",
+    "audioFile": "audios/lezen.mp3"
+  },
+  {
+    "original": "schrijven",
+    "translation": "to write",
+    "diphthong": "ij",
+    "audioFile": "audios/schrijven.mp3"
+  },
+  {
+    "original": "praten",
+    "translation": "to talk",
+    "diphthong": "aa",
+    "audioFile": "audios/praten.mp3"
+  },
+  {
+    "original": "luisteren",
+    "translation": "to listen",
+    "diphthong": "ie",
+    "audioFile": "audios/luisteren.mp3"
+  },
+  {
+    "original": "kijken",
+    "translation": "to look/watch",
+    "diphthong": "ij",
+    "audioFile": "audios/kijken.mp3"
+  },
+  {
+    "original": "zien",
+    "translation": "to see",
+    "diphthong": "ie",
+    "audioFile": "audios/zien.mp3"
+  },
+  {
+    "original": "horen",
+    "translation": "to hear",
+    "diphthong": "oe",
+    "audioFile": "audios/horen.mp3"
+  },
+  {
+    "original": "begrijpen",
+    "translation": "to understand",
+    "diphthong": "ij",
+    "audioFile": "audios/begrijpen.mp3"
+  },
+  {
+    "original": "denken",
+    "translation": "to think",
+    "diphthong": "en",
+    "audioFile": "audios/denken.mp3"
+  },
+  {
+    "original": "weten",
+    "translation": "to know",
+    "diphthong": "ee",
+    "audioFile": "audios/weten.mp3"
+  },
+  {
+    "original": "kunnen",
+    "translation": "to be able to",
+    "diphthong": "oe",
+    "audioFile": "audios/kunnen.mp3"
+  },
+  {
+    "original": "willen",
+    "translation": "to want",
+    "diphthong": "ie",
+    "audioFile": "audios/willen.mp3"
+  },
+  {
+    "original": "moeten",
+    "translation": "to have to",
+    "diphthong": "oe",
+    "audioFile": "audios/moeten.mp3"
+  },
+  {
+    "original": "mogen",
+    "translation": "to be allowed to",
+    "diphthong": "oe",
+    "audioFile": "audios/mogen.mp3"
+  },
+  {
+    "original": "hier",
+    "translation": "here",
+    "diphthong": "ie",
+    "audioFile": "audios/hier.mp3"
+  },
+  {
+    "original": "daar",
+    "translation": "there",
+    "diphthong": "aa",
+    "audioFile": "audios/daar.mp3"
+  },
+  {
+    "original": "nu",
+    "translation": "now",
+    "diphthong": "u",
+    "audioFile": "audios/nu.mp3"
+  },
+  {
+    "original": "straks",
+    "translation": "later",
+    "diphthong": "a",
+    "audioFile": "audios/straks.mp3"
+  },
+  {
+    "original": "gisteren",
+    "translation": "yesterday",
+    "diphthong": "ie",
+    "audioFile": "audios/gisteren.mp3"
+  },
+  {
+    "original": "vandaag",
+    "translation": "today",
+    "diphthong": "aa",
+    "audioFile": "audios/vandaag.mp3"
+  },
+  {
+    "original": "morgen",
+    "translation": "tomorrow",
+    "diphthong": "or",
+    "audioFile": "audios/morgen.mp3"
+  },
+  {
+    "original": "links",
+    "translation": "left",
+    "diphthong": "in",
+    "audioFile": "audios/links.mp3"
+  },
+  {
+    "original": "rechts",
+    "translation": "right",
+    "diphthong": "ei",
+    "audioFile": "audios/rechts.mp3"
+  },
+  {
+    "original": "snel",
+    "translation": " fast/quick",
+    "diphthong": "ee",
+    "audioFile": "audios/snel.mp3"
+  }
+]
