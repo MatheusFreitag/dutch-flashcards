@@ -1,5 +1,5 @@
 const SOURCE_OF_WORDS =
-  'https://raw.githubusercontent.com/MatheusFreitag/dutch-flashcards/main/library.json?token=GHSAT0AAAAAACBZ347I6GNHQF7RWEM6M4UIZC4U5WQ';
+  'https://raw.githubusercontent.com/MatheusFreitag/dutch-flashcards/main/library.json';
 
 const dataHandler = (data) => {
   const originalText = document.getElementById('originalText');
