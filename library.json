@@ -1,13 +1,58 @@
 [
-  { "original": "ik", "translation": "I", "audioFile": "audios/ik.mp3" },
-  { "original": "jij", "translation": "you", "audioFile": "audios/jij.mp3" },
-  { "original": "zij", "translation": "she", "audioFile": "audios/zij.mp3" },
-  { "original": "hij", "translation": "he", "audioFile": "audios/hij.mp3" },
-  { "original": "wij", "translation": " we", "audioFile": "audios/wij.mp3" },
-  { "original": "zij", "translation": " they", "audioFile": "audios/zij.mp3" },
-  { "original": "het", "translation": " it", "audioFile": "audios/het.mp3" },
-  { "original": "de", "translation": " the", "audioFile": "audios/de.mp3" },
-  { "original": "een", "translation": "a/an", "audioFile": "audios/een.mp3" },
+  {
+    "original": "ik",
+    "translation": "I",
+    "diphthong": "ik",
+    "audioFile": "audios/ik.mp3"
+  },
+  {
+    "original": "jij",
+    "translation": "you",
+    "diphthong": "ij",
+    "audioFile": "audios/jij.mp3"
+  },
+  {
+    "original": "zij",
+    "translation": "she",
+    "diphthong": "ij",
+    "audioFile": "audios/zij.mp3"
+  },
+  {
+    "original": "hij",
+    "translation": "he",
+    "diphthong": "ij",
+    "audioFile": "audios/hij.mp3"
+  },
+  {
+    "original": "wij",
+    "translation": "we",
+    "diphthong": "ij",
+    "audioFile": "audios/wij.mp3"
+  },
+  {
+    "original": "zij",
+    "translation": "they",
+    "diphthong": "ij",
+    "audioFile": "audios/zij.mp3"
+  },
+  {
+    "original": "het",
+    "translation": "it",
+    "diphthong": "et",
+    "audioFile": "audios/het.mp3"
+  },
+  {
+    "original": "de",
+    "translation": "the",
+    "diphthong": "de",
+    "audioFile": "audios/de.mp3"
+  },
+  {
+    "original": "een",
+    "translation": "a/an",
+    "diphthong": "een",
+    "audioFile": "audios/een.mp3"
+  },
   {
     "original": "goed",
     "translation": "good",
@@ -22,7 +67,7 @@
   },
   {
     "original": "leuk",
-    "translation": "fun/nice",
+    "translation": "nice",
     "diphthong": "eu",
     "audioFile": "audios/leuk.mp3"
   },

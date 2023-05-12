@@ -86,3 +86,25 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+#wordsRemaining {
+  text-align: center;
+  margin: 0;
+  color: gray;
+}
+
+.nullOpacity {
+  opacity: 0;
+}
+
+.greenBackground {
+  background-color: #84cc16 !important;
+  border: 2px solid #4d7c0f !important;
+  color: #365314 !important;
+}
+
+.redBackground {
+  background-color: #dc2626 !important;
+  border: 2px solid #991b1b !important;
+  color: #450a0a !important;
+}

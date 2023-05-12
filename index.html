@@ -23,15 +23,17 @@
       </div>
 
       <div id="inputCard">
-        <input type="text" placeholder="Word" id="wordAnswerInput" />
-        <input type="text" placeholder="Diphthong" id="diphthongsAnswerInput" />
+        <input type="text" placeholder="Word" id="wordAnswerInput" class=""/>
+        <input type="text" placeholder="Diphthong" id="diphthongsAnswerInput" class=""/>
         <div class="inputCard__controls">
           <button id="checkButton">Check</button>
           <button id="nextButton">Next</button>
         </div>
+        <p id="wordsRemaining"></p>
       </div>
     </div>
 
+    <script src="stateMachine.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -2,16 +2,41 @@ const SOURCE_OF_WORDS =
   'https://raw.githubusercontent.com/MatheusFreitag/dutch-flashcards/main/library.json';
 
 const dataHandler = (data) => {
-  const originalText = document.getElementById('originalText');
-  const translatedText = document.getElementById('translatedText');
-  const dipththongText = document.getElementById('diphthongText');
+  const originalTextField = document.getElementById('originalText');
+  const translatedTextField = document.getElementById('translatedText');
+  const dipththongTextField = document.getElementById('diphthongText');
   const playButton = document.getElementById('playButton');
-  const audio = new Audio(data[29].audioFile);
-  originalText.innerText = data[29].original;
-  translatedText.innerText = `Translation: "${data[29].translation}"`;
-  dipththongText.innerText = `Diphthong: "${data[29].diphthong}"`;
-  playButton.addEventListener('click', (e) => {
-    audio.play();
+  const checkButton = document.getElementById('checkButton');
+  const nextButton = document.getElementById('nextButton');
+  const wordAnswerField = document.getElementById('wordAnswerInput');
+  const dipththongAnswerField = document.getElementById(
+    'diphthongsAnswerInput'
+  );
+  const wordsRemainingCounter = document.getElementById('wordsRemaining');
+
+  const stateMachine = new StateMachine(
+    originalTextField,
+    translatedTextField,
+    dipththongTextField,
+    wordAnswerField,
+    dipththongAnswerField,
+    playButton,
+    wordsRemainingCounter,
+    data
+  );
+
+  stateMachine.startRound();
+
+  checkButton.addEventListener('click', () => {
+    const inputText = document.getElementById('wordAnswerInput').value;
+    const inputDiphthong = document.getElementById(
+      'diphthongsAnswerInput'
+    ).value;
+    stateMachine.check(inputText, inputDiphthong);
+  });
+
+  nextButton.addEventListener('click', () => {
+    stateMachine.startRound();
   });
 };
 
