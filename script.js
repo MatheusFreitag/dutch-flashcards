@@ -25,6 +25,10 @@ const dataHandler = (data) => {
     data
   );
 
+  playButton.addEventListener('click', (e) => {
+    stateMachine.playAudio();
+  });
+
   stateMachine.startRound();
 
   checkButton.addEventListener('click', () => {

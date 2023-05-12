@@ -22,25 +22,35 @@ class StateMachine {
   }
 
   startRound() {
-    const index = Math.floor(Math.random() * this.remainingWords.length);
-    const pickedWord = this.remainingWords.splice(index, 1)[0];
-    this.currentWord = pickedWord;
-    this.wordsRemainingCounter.innerText = `${this.remainingWords.length} words remaining`
+    // resets
+    this.wordsRemainingCounter.innerText = `${this.remainingWords.length} words remaining`;
     this.originalTextField.classList.add('nullOpacity');
     this.translatedTextField.classList.add('nullOpacity');
     this.dipththongTextField.classList.add('nullOpacity');
     this.wordAnswerField.classList.remove('greenBackground');
     this.wordAnswerField.classList.remove('redBackground');
+    this.wordAnswerField.value = "";
     this.dipththongAnswerField.classList.remove('greenBackground');
     this.dipththongAnswerField.classList.remove('redBackground');
+    this.dipththongAnswerField.value = "";
+    if (playButton.getAttribute('listener') === true) {
+      console.log('has event listener');
+      playButton.removeEventListener('click', playAudio);
+    }
+
+    // Initialization of variables
+    const index = Math.floor(Math.random() * this.remainingWords.length);
+    const pickedWord = this.remainingWords.splice(index, 1)[0];
     this.originalTextField.innerText = pickedWord.original;
     this.translatedTextField.innerText = `Translation: "${pickedWord.translation}"`;
     this.dipththongTextField.innerText = `Diphthong: "${pickedWord.diphthong}"`;
-    const audioPath = new Audio(pickedWord.audioFile);
+    this.currentWord = pickedWord;
+  }
 
-    playButton.addEventListener('click', (e) => {
-      audioPath.play();
-    });
+  playAudio() {
+    console.log('play');
+    const audio = new Audio(this.currentWord.audioFile);
+    audio.play();
   }
 
   check(inputText, inputDiphthong) {
@@ -63,7 +73,7 @@ class StateMachine {
     );
 
     if (correctAnswer === givenAnswer && correctDiphthong === givenDiphthong) {
-      this.usedWords.add(this.currentWord);
+      this.usedWords.push(this.currentWord);
     }
   }
 }
