@@ -34,7 +34,6 @@ class StateMachine {
     this.dipththongAnswerField.classList.remove('redBackground');
     this.dipththongAnswerField.value = "";
     if (playButton.getAttribute('listener') === true) {
-      console.log('has event listener');
       playButton.removeEventListener('click', playAudio);
     }
 
@@ -48,7 +47,6 @@ class StateMachine {
   }
 
   playAudio() {
-    console.log('play');
     const audio = new Audio(this.currentWord.audioFile);
     audio.play();
   }

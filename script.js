@@ -1,7 +1,6 @@
-const SOURCE_OF_WORDS =
-  'https://raw.githubusercontent.com/MatheusFreitag/dutch-flashcards/main/library.json';
+const SOURCE_OF_WORDS = audioLibrary['diphthongsVocabulary'];
 
-const dataHandler = (data) => {
+const initialize = (data) => {
   const originalTextField = document.getElementById('originalText');
   const translatedTextField = document.getElementById('translatedText');
   const dipththongTextField = document.getElementById('diphthongText');
@@ -44,12 +43,4 @@ const dataHandler = (data) => {
   });
 };
 
-fetch(SOURCE_OF_WORDS)
-  .then((response) => response.json())
-  .then((data) => {
-    // Store the JSON data in a variable
-    dataHandler(data);
-  })
-  .catch((error) => {
-    console.error(error);
-  });
+initialize(SOURCE_OF_WORDS);
